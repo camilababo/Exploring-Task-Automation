@@ -29,7 +29,7 @@ def extract_specific_location(data_frame, column_name, encoding, neighborhoods_l
     data_frame['Specific Location'] = data_frame[column_name].apply(lambda x: keep_neighborhood_words(x,
                                                                                                     neighborhoods_list))
 
-    data_frame.to_csv('clean_data.csv', index=False)
+    data_frame.to_csv('clean_data.csv', index=False, encoding='latin1')
 
     print('Data has been written to the CSV file.')
 

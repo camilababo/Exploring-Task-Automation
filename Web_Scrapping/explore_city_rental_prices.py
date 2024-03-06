@@ -180,7 +180,7 @@ def include_property_features(file, link_col):
             except AttributeError as e:
                 print("Error:", e)
 
-    with open('rental_properties.csv', mode='a', newline='') as csv_file:
+    with open('rental_features.csv', mode='a', newline='') as csv_file:
         writer = csv.writer(csv_file)
         if csv_file.tell() == 0:
             writer.writerow(
