@@ -1,4 +1,4 @@
-The example scripts present in this repository automate simple tasks such as:
+The example scripts present in this repository automate repetitive tasks such as:
 
 - [pdf_to_mp3.py](pdf_to_mp3.py): Converts a pdf file to a mp3 audio file.
 - [telemarketing-gui-for-data-entry.py](telemarketing-gui-for-data-entry.py): Script to create a pop-window to entry 
